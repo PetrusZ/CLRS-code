@@ -1,0 +1,431 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	hash_chained.c	24;"	d	file:
+A	hash_openaddr.c	24;"	d	file:
+BLACK	rb_tree.c	21;"	d	file:
+BLACK	rb_treecp.c	/^    BLACK = 1$/;"	e	enum:color_t	file:
+BLACK	rbtree_m.c	20;"	d	file:
+BLACK	rbtree_m2.c	20;"	d	file:
+DEL	hash_openaddr.c	36;"	d	file:
+ELEM	hash_chained.c	/^typedef struct elemt    ELEM;$/;"	t	typeref:struct:elemt	file:
+ELEM	linkedlist.c	/^}ELEM;$/;"	t	typeref:struct:elemt	file:
+ELEM	linkedlist_nil.c	/^typedef struct elemt    ELEM;$/;"	t	typeref:struct:elemt	file:
+HASH	hash_chained.c	25;"	d	file:
+HASH_	hash_chained.c	/^HASH_(int k) $/;"	f	signature:(int k)
+LEFT	heapsort.c	21;"	d	file:
+LEFT	priority_queue.c	21;"	d	file:
+LIST	hash_chained.c	/^}LIST;$/;"	t	typeref:struct:__anon4	file:
+LIST	linkedlist.c	/^}LIST;$/;"	t	typeref:struct:__anon1	file:
+LIST	linkedlist_nil.c	/^}LIST;$/;"	t	typeref:struct:__anon3	file:
+MAX	merge_sort_max.c	20;"	d	file:
+MAXK	radixsort_CLRS.c	21;"	d	file:
+MAXN	hash_cp.c	22;"	d	file:
+MIN	find_maximum_subarray.c	21;"	d	file:
+MIN	priority_queue.c	25;"	d	file:
+NODE	binary_search_tree.c	/^}NODE;$/;"	t	typeref:struct:node	file:
+NODE	tree2.c	/^}NODE;$/;"	t	typeref:struct:node	file:
+PARENT	priority_queue.c	20;"	d	file:
+QUEUE	queue.c	/^}QUEUE;$/;"	t	typeref:struct:__anon2	file:
+RB_BLACK	rbtree_augmented.h	88;"	d
+RB_CLEAR_NODE	rbtree.h	57;"	d
+RB_DECLARE_CALLBACKS	rbtree_augmented.h	53;"	d
+RB_EMPTY_NODE	rbtree.h	55;"	d
+RB_EMPTY_ROOT	rbtree.h	52;"	d
+RB_NODE	rbtree_m.c	/^}RB_NODE;$/;"	t	typeref:struct:rb_node	file:
+RB_NODE	rbtree_m2.c	/^}RB_NODE;$/;"	t	typeref:struct:rb_node	file:
+RB_RED	rbtree_augmented.h	87;"	d
+RB_ROOT	rbtree.h	49;"	d
+RB_TREE	rb_tree.c	/^}RB_TREE;$/;"	t	typeref:struct:rb_tree	file:
+RB_TREE	rbtree_m.c	/^}RB_TREE;$/;"	t	typeref:struct:rb_tree	file:
+RB_TREE	rbtree_m2.c	/^}RB_TREE;$/;"	t	typeref:struct:rb_root	file:
+RED	rb_tree.c	22;"	d	file:
+RED	rb_treecp.c	/^    RED = 0,$/;"	e	enum:color_t	file:
+RED	rbtree_m.c	21;"	d	file:
+RED	rbtree_m2.c	21;"	d	file:
+RIGHT	heapsort.c	22;"	d	file:
+RIGHT	priority_queue.c	22;"	d	file:
+SELECT	select_wcliner.c	/^SELECT(A, p, r, i) $/;"	f
+WIDTH	radixsort_CLRS.c	20;"	d	file:
+_LINUX_RBTREE_AUGMENTED_H	rbtree_augmented.h	25;"	d
+_LINUX_RBTREE_H	rbtree.h	30;"	d
+____rb_erase_color	rbtree.c	/^____rb_erase_color(struct rb_node *parent, struct rb_root *root,$/;"	f	file:	signature:(struct rb_node *parent, struct rb_root *root, void (*augment_rotate)(struct rb_node *old, struct rb_node *new))
+__anon1::head	linkedlist.c	/^    ELEM    *head;$/;"	m	struct:__anon1	file:	access:public
+__anon2::head	queue.c	/^    int     head;$/;"	m	struct:__anon2	file:	access:public
+__anon2::length	queue.c	/^    int     length;$/;"	m	struct:__anon2	file:	access:public
+__anon2::queue	queue.c	/^    int     *queue;$/;"	m	struct:__anon2	file:	access:public
+__anon2::tail	queue.c	/^    int     tail;$/;"	m	struct:__anon2	file:	access:public
+__anon3::nil	linkedlist_nil.c	/^    ELEM    *nil;$/;"	m	struct:__anon3	file:	access:public
+__anon4::head	hash_chained.c	/^    ELEM    *head;$/;"	m	struct:__anon4	file:	access:public
+__rb_change_child	rbtree_augmented.h	/^__rb_change_child(struct rb_node *old, struct rb_node *new,$/;"	f	signature:(struct rb_node *old, struct rb_node *new, struct rb_node *parent, struct rb_root *root)
+__rb_color	rbtree_augmented.h	92;"	d
+__rb_erase_augmented	rbtree_augmented.h	/^__rb_erase_augmented(struct rb_node *node, struct rb_root *root,$/;"	f	signature:(struct rb_node *node, struct rb_root *root, const struct rb_augment_callbacks *augment)
+__rb_erase_color	rbtree.c	/^EXPORT_SYMBOL(__rb_erase_color);$/;"	v
+__rb_erase_color	rbtree.c	/^void __rb_erase_color(struct rb_node *parent, struct rb_root *root,$/;"	f	signature:(struct rb_node *parent, struct rb_root *root, void (*augment_rotate)(struct rb_node *old, struct rb_node *new))
+__rb_erase_color	rbtree_augmented.h	/^extern void __rb_erase_color(struct rb_node *parent, struct rb_root *root,$/;"	p	signature:(struct rb_node *parent, struct rb_root *root, void (*augment_rotate)(struct rb_node *old, struct rb_node *new))
+__rb_insert	rbtree.c	/^__rb_insert(struct rb_node *node, struct rb_root *root,$/;"	f	file:	signature:(struct rb_node *node, struct rb_root *root, void (*augment_rotate)(struct rb_node *old, struct rb_node *new))
+__rb_insert_augmented	rbtree.c	/^EXPORT_SYMBOL(__rb_insert_augmented);$/;"	v
+__rb_insert_augmented	rbtree.c	/^void __rb_insert_augmented(struct rb_node *node, struct rb_root *root,$/;"	f	signature:(struct rb_node *node, struct rb_root *root, void (*augment_rotate)(struct rb_node *old, struct rb_node *new))
+__rb_insert_augmented	rbtree_augmented.h	/^extern void __rb_insert_augmented(struct rb_node *node, struct rb_root *root,$/;"	p	signature:(struct rb_node *node, struct rb_root *root, void (*augment_rotate)(struct rb_node *old, struct rb_node *new))
+__rb_is_black	rbtree_augmented.h	93;"	d
+__rb_is_red	rbtree_augmented.h	94;"	d
+__rb_parent	rbtree_augmented.h	90;"	d
+__rb_parent_color	rbtree.h	/^	unsigned long  __rb_parent_color;$/;"	m	struct:rb_node	access:public
+__rb_rotate_set_parents	rbtree.c	/^__rb_rotate_set_parents(struct rb_node *old, struct rb_node *new,$/;"	f	file:	signature:(struct rb_node *old, struct rb_node *new, struct rb_root *root, int color)
+augment_callbacks	drbd_interval.c	/^static const struct rb_augment_callbacks augment_callbacks = {$/;"	v	typeref:struct:rb_augment_callbacks	file:
+augment_copy	drbd_interval.c	/^static void augment_copy(struct rb_node *rb_old, struct rb_node *rb_new)$/;"	f	file:	signature:(struct rb_node *rb_old, struct rb_node *rb_new)
+augment_propagate	drbd_interval.c	/^static void augment_propagate(struct rb_node *rb, struct rb_node *stop)$/;"	f	file:	signature:(struct rb_node *rb, struct rb_node *stop)
+augment_rotate	drbd_interval.c	/^static void augment_rotate(struct rb_node *rb_old, struct rb_node *rb_new)$/;"	f	file:	signature:(struct rb_node *rb_old, struct rb_node *rb_new)
+build_maxheap	heapsort.c	/^build_maxheap(int *A)$/;"	f	signature:(int *A)
+c1	hash_openaddr.c	27;"	d	file:
+c2	hash_openaddr.c	28;"	d	file:
+color	rb_tree.c	/^    int     color;$/;"	m	struct:rb_tree	file:	access:public
+color	rb_treecp.c	/^    color_t color;$/;"	m	struct:rb_node_t	file:	access:public
+color	rbtree_m.c	/^    int     color;$/;"	m	struct:rb_node	file:	access:public
+color	rbtree_m2.c	/^    int     color;$/;"	m	struct:rb_node	file:	access:public
+color_t	rb_treecp.c	/^typedef enum color_t$/;"	g	file:
+color_t	rb_treecp.c	/^}color_t;$/;"	t	typeref:enum:color_t	file:
+compute_subtree_last	drbd_interval.c	/^compute_subtree_last(struct drbd_interval *node)$/;"	f	file:	signature:(struct drbd_interval *node)
+copy	rbtree_augmented.h	/^	void (*copy)(struct rb_node *old, struct rb_node *new);$/;"	m	struct:rb_augment_callbacks	access:public
+counting_sort	counting_sort.c	/^counting_sort(int *A, int *B, int k)$/;"	f	signature:(int *A, int *B, int k)
+data	rb_treecp.c	/^    data_t data;$/;"	m	struct:rb_node_t	file:	access:public
+data_t	rb_treecp.c	/^typedef int data_t;$/;"	t	file:
+deleteElement	hash_cp.c	/^void deleteElement(int key, hashtable ht)$/;"	f	signature:(int key, hashtable ht)
+dequeue	queue.c	/^dequeue(QUEUE *Q)$/;"	f	signature:(QUEUE *Q)
+dlist	hash_cp.c	/^	position *dlist;	\/\/ 指针的指针，指向由于冲突形成的链表$/;"	m	struct:hashtb	file:	access:public
+drbd_contains_interval	drbd_interval.c	/^drbd_contains_interval(struct rb_root *root, sector_t sector,$/;"	f	signature:(struct rb_root *root, sector_t sector, struct drbd_interval *interval)
+drbd_find_overlap	drbd_interval.c	/^drbd_find_overlap(struct rb_root *root, sector_t sector, unsigned int size)$/;"	f	signature:(struct rb_root *root, sector_t sector, unsigned int size)
+drbd_insert_interval	drbd_interval.c	/^drbd_insert_interval(struct rb_root *root, struct drbd_interval *this)$/;"	f	signature:(struct rb_root *root, struct drbd_interval *this)
+drbd_next_overlap	drbd_interval.c	/^drbd_next_overlap(struct drbd_interval *i, sector_t sector, unsigned int size)$/;"	f	signature:(struct drbd_interval *i, sector_t sector, unsigned int size)
+drbd_remove_interval	drbd_interval.c	/^drbd_remove_interval(struct rb_root *root, struct drbd_interval *this)$/;"	f	signature:(struct rb_root *root, struct drbd_interval *this)
+dummy_callbacks	rbtree.c	/^static const struct rb_augment_callbacks dummy_callbacks = {$/;"	v	typeref:struct:rb_augment_callbacks	file:
+dummy_copy	rbtree.c	/^static inline void dummy_copy(struct rb_node *old, struct rb_node *new) {}$/;"	f	file:	signature:(struct rb_node *old, struct rb_node *new)
+dummy_propagate	rbtree.c	/^static inline void dummy_propagate(struct rb_node *node, struct rb_node *stop) {}$/;"	f	file:	signature:(struct rb_node *node, struct rb_node *stop)
+dummy_rotate	rbtree.c	/^static inline void dummy_rotate(struct rb_node *old, struct rb_node *new) {}$/;"	f	file:	signature:(struct rb_node *old, struct rb_node *new)
+element	hash_cp.c	/^	int element;$/;"	m	struct:lnode	file:	access:public
+elemt	hash_chained.c	/^struct elemt{$/;"	s	file:
+elemt	linkedlist.c	/^typedef struct elemt{$/;"	s	file:
+elemt	linkedlist_nil.c	/^struct elemt{$/;"	s	file:
+elemt::key	hash_chained.c	/^    int     key;$/;"	m	struct:elemt	file:	access:public
+elemt::key	linkedlist.c	/^    int     key;$/;"	m	struct:elemt	file:	access:public
+elemt::key	linkedlist_nil.c	/^    int     key;$/;"	m	struct:elemt	file:	access:public
+elemt::next	hash_chained.c	/^    struct elemt    *next;$/;"	m	struct:elemt	typeref:struct:elemt::elemt	file:	access:public
+elemt::next	linkedlist.c	/^    struct elemt    *next;$/;"	m	struct:elemt	typeref:struct:elemt::elemt	file:	access:public
+elemt::next	linkedlist_nil.c	/^    struct elemt    *next;$/;"	m	struct:elemt	typeref:struct:elemt::elemt	file:	access:public
+elemt::prev	hash_chained.c	/^    struct elemt    *prev;$/;"	m	struct:elemt	typeref:struct:elemt::elemt	file:	access:public
+elemt::prev	linkedlist.c	/^    struct elemt    *prev;$/;"	m	struct:elemt	typeref:struct:elemt::elemt	file:	access:public
+elemt::prev	linkedlist_nil.c	/^    struct elemt    *prev;$/;"	m	struct:elemt	typeref:struct:elemt::elemt	file:	access:public
+enqueue	queue.c	/^enqueue(QUEUE *Q, int x)$/;"	f	signature:(QUEUE *Q, int x)
+exchange	heapsort.c	23;"	d	file:
+exchange	priority_queue.c	23;"	d	file:
+exchange	rand_quicksort.c	20;"	d	file:
+findDescription	hash_cp.c	/^inline void findDescription(position p, int key)$/;"	f	signature:(position p, int key)
+findElement	hash_cp.c	/^position findElement(int key, hashtable ht)$/;"	f	signature:(int key, hashtable ht)
+find_max_crossing_subarray	find_maximum_subarray.c	/^find_max_crossing_subarray(int *A, int low, int mid, int high)$/;"	f	signature:(int *A, int low, int mid, int high)
+find_maximum_subarray	find_maximum_subarray.c	/^find_maximum_subarray(int *A, int low, int high)$/;"	f	signature:(int *A, int low, int high)
+find_maximum_subarray_liner	find_maximum_subarray_liner.c	/^int find_maximum_subarray_liner(const int A[],int n)  $/;"	f	signature:(const int A[],int n)
+find_min_max	find_min_max.c	/^find_min_max(int *A, int *min, int *max)$/;"	f	signature:(int *A, int *min, int *max)
+getDValue	radixsort_CLRS.c	/^int getDValue(int value, int d) {$/;"	f	signature:(int value, int d)
+get_index	radixsort.c	/^int get_index(int num, int dec, int order)$/;"	f	signature:(int num, int dec, int order)
+h	hash_openaddr.c	34;"	d	file:
+h1	hash_openaddr.c	32;"	d	file:
+h2	hash_openaddr.c	33;"	d	file:
+hashFunction	hash_cp.c	/^int hashFunction(int key, int tablesize)$/;"	f	signature:(int key, int tablesize)
+hash_delete	hash_chained.c	/^hash_delete(LIST *table, int x)$/;"	f	signature:(LIST *table, int x)
+hash_delete	hash_openaddr.c	/^hash_delete(int *T, int k)$/;"	f	signature:(int *T, int k)
+hash_insert	hash_chained.c	/^hash_insert(LIST *table, int x)$/;"	f	signature:(LIST *table, int x)
+hash_insert	hash_openaddr.c	/^hash_insert(int *T, int k)$/;"	f	signature:(int *T, int k)
+hash_search	hash_chained.c	/^hash_search(LIST *table, int x)$/;"	f	signature:(LIST *table, int x)
+hash_search	hash_openaddr.c	/^hash_search(int *T, int k)$/;"	f	signature:(int *T, int k)
+hashtable	hash_cp.c	/^} *hashtable;$/;"	t	typeref:struct:hashtb	file:
+hashtb	hash_cp.c	/^typedef struct hashtb {$/;"	s	file:
+hashtb::dlist	hash_cp.c	/^	position *dlist;	\/\/ 指针的指针，指向由于冲突形成的链表$/;"	m	struct:hashtb	file:	access:public
+hashtb::tablesize	hash_cp.c	/^	int tablesize;$/;"	m	struct:hashtb	file:	access:public
+head	hash_chained.c	/^    ELEM    *head;$/;"	m	struct:__anon4	file:	access:public
+head	linkedlist.c	/^    ELEM    *head;$/;"	m	struct:__anon1	file:	access:public
+head	queue.c	/^    int     head;$/;"	m	struct:__anon2	file:	access:public
+heap_extract_max	priority_queue.c	/^heap_extract_max(int *A)$/;"	f	signature:(int *A)
+heap_increase_key	priority_queue.c	/^heap_increase_key(int *A, int i, int key)$/;"	f	signature:(int *A, int i, int key)
+heap_max	priority_queue.c	/^heap_max(int *A)$/;"	f	signature:(int *A)
+heapsize	heapsort.c	/^int heapsize, length;$/;"	v
+heapsort	heapsort.c	/^heapsort(int *A)$/;"	f	signature:(int *A)
+initializeTable	hash_cp.c	/^hashtable initializeTable(int tablesize)$/;"	f	signature:(int tablesize)
+innerCountingSort	radixsort_CLRS.c	/^void innerCountingSort(int a[], int n, int d) {$/;"	f	signature:(int a[], int n, int d)
+inorder_tree_walk	binary_search_tree.c	/^inorder_tree_walk(NODE *x)$/;"	f	signature:(NODE *x)
+inorder_tree_walk	rb_tree.c	/^inorder_tree_walk(RB_TREE *x)$/;"	f	signature:(RB_TREE *x)
+inorder_tree_walk	tree2.c	/^inorder_tree_walk(NODE *x)$/;"	f	signature:(NODE *x)
+insertElement	hash_cp.c	/^void insertElement(int key, hashtable ht)$/;"	f	signature:(int key, hashtable ht)
+insert_node	rb_tree.c	/^insert_node(RB_TREE **T, int key)$/;"	f	signature:(RB_TREE **T, int key)
+insertion_sort	insertion-sort.c	/^insertion_sort(int  *A)$/;"	f	signature:(int *A)
+insertion_sort	main.c	/^extern void insertion_sort(int *A);$/;"	p	file:	signature:(int *A)
+insertion_sort	select_wcliner.c	/^extern void insertion_sort(int *A);$/;"	p	file:	signature:(int *A)
+insertion_sort	select_wcliner.c	/^insertion_sort(int  *A, int p, int r)$/;"	f	signature:(int *A, int p, int r)
+interval_end	drbd_interval.c	/^sector_t interval_end(struct rb_node *node)$/;"	f	file:	signature:(struct rb_node *node)
+iterative_tree_search	binary_search_tree.c	/^iterative_tree_search(NODE *x, int k)$/;"	f	signature:(NODE *x, int k)
+iterative_tree_search	rb_tree.c	/^iterative_tree_search(RB_TREE *x, int k)$/;"	f	signature:(RB_TREE *x, int k)
+iterative_tree_search	tree2.c	/^iterative_tree_search(NODE *x, int k)$/;"	f	signature:(NODE *x, int k)
+key	binary_search_tree.c	/^    int     key;$/;"	m	struct:node	file:	access:public
+key	hash_chained.c	/^    int     key;$/;"	m	struct:elemt	file:	access:public
+key	linkedlist.c	/^    int     key;$/;"	m	struct:elemt	file:	access:public
+key	linkedlist_nil.c	/^    int     key;$/;"	m	struct:elemt	file:	access:public
+key	rb_tree.c	/^    int     key;$/;"	m	struct:rb_tree	file:	access:public
+key	rb_treecp.c	/^    key_t key;$/;"	m	struct:rb_node_t	file:	access:public
+key	rbtree_m.c	/^    int     key;$/;"	m	struct:rb_node	file:	access:public
+key	rbtree_m2.c	/^    int     key;$/;"	m	struct:rb_node	file:	access:public
+key	tree2.c	/^    int     key;$/;"	m	struct:node	file:	access:public
+key_t	rb_treecp.c	/^typedef int key_t;$/;"	t	file:
+left	binary_search_tree.c	/^    struct node    *left;$/;"	m	struct:node	typeref:struct:node::node	file:	access:public
+left	rb_tree.c	/^    struct rb_tree *left;$/;"	m	struct:rb_tree	typeref:struct:rb_tree::rb_tree	file:	access:public
+left	rb_treecp.c	/^    struct rb_node_t *left, *right, *parent;$/;"	m	struct:rb_node_t	typeref:struct:rb_node_t::rb_node_t	file:	access:public
+left	rbtree_m.c	/^    struct rb_node *left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	file:	access:public
+left	rbtree_m2.c	/^    struct rb_node *left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	file:	access:public
+left	tree2.c	/^    struct node    *left;$/;"	m	struct:node	typeref:struct:node::node	file:	access:public
+left_rotate	rb_tree.c	/^left_rotate(RB_TREE **T, RB_TREE *x)$/;"	f	signature:(RB_TREE **T, RB_TREE *x)
+left_rotate	rbtree_m.c	/^left_rotate(RB_TREE *T, RB_NODE *x)$/;"	f	signature:(RB_TREE *T, RB_NODE *x)
+left_rotate	rbtree_m2.c	/^left_rotate(RB_TREE *T, RB_NODE *x)$/;"	f	signature:(RB_TREE *T, RB_NODE *x)
+length	heapsort.c	/^int heapsize, length;$/;"	v
+length	queue.c	/^    int     length;$/;"	m	struct:__anon2	file:	access:public
+list_delete	hash_chained.c	/^list_delete(LIST *L, ELEM *x)$/;"	f	signature:(LIST *L, ELEM *x)
+list_delete	linkedlist.c	/^list_delete(LIST *L, ELEM *x)$/;"	f	signature:(LIST *L, ELEM *x)
+list_delete	linkedlist_nil.c	/^list_delete(LIST *L, ELEM *x)$/;"	f	signature:(LIST *L, ELEM *x)
+list_init	hash_chained.c	/^list_init(LIST *L)$/;"	f	signature:(LIST *L)
+list_init	linkedlist.c	/^list_init(LIST *L)$/;"	f	signature:(LIST *L)
+list_init	linkedlist_nil.c	/^list_init(LIST *L)$/;"	f	signature:(LIST *L)
+list_insert	hash_chained.c	/^list_insert(LIST *L, int key)$/;"	f	signature:(LIST *L, int key)
+list_insert	linkedlist.c	/^list_insert(LIST *L, int key)$/;"	f	signature:(LIST *L, int key)
+list_insert	linkedlist_nil.c	/^list_insert(LIST *L, int key)$/;"	f	signature:(LIST *L, int key)
+list_search	hash_chained.c	/^list_search(LIST *L, int k)$/;"	f	signature:(LIST *L, int k)
+list_search	linkedlist.c	/^list_search(LIST *L, int k)$/;"	f	signature:(LIST *L, int k)
+list_search	linkedlist_nil.c	/^list_search(LIST *L, int k)$/;"	f	signature:(LIST *L, int k)
+lnode	hash_cp.c	/^typedef struct lnode {$/;"	s	file:
+lnode::element	hash_cp.c	/^	int element;$/;"	m	struct:lnode	file:	access:public
+lnode::next	hash_cp.c	/^	struct lnode *next;$/;"	m	struct:lnode	typeref:struct:lnode::lnode	file:	access:public
+m	hash_chained.c	21;"	d	file:
+m	hash_openaddr.c	21;"	d	file:
+main	binary_search_tree.c	/^main(void)$/;"	f	signature:(void)
+main	counting_sort.c	/^main(void)$/;"	f	signature:(void)
+main	find_maximum_subarray.c	/^main(void)$/;"	f	signature:(void)
+main	find_maximum_subarray_liner.c	/^main(void)$/;"	f	signature:(void)
+main	find_min_max.c	/^main(void)$/;"	f	signature:(void)
+main	hash_chained.c	/^main(void)$/;"	f	signature:(void)
+main	hash_cp.c	/^int main(void)$/;"	f	signature:(void)
+main	hash_openaddr.c	/^main(void)$/;"	f	signature:(void)
+main	heapsort.c	/^main(void)$/;"	f	signature:(void)
+main	linkedlist.c	/^main(void)$/;"	f	signature:(void)
+main	linkedlist_nil.c	/^main(void)$/;"	f	signature:(void)
+main	main.c	/^main(void)$/;"	f	signature:(void)
+main	queue.c	/^main(void)$/;"	f	signature:(void)
+main	radixsort.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	radixsort_CLRS.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	rb_tree.c	/^main(void)$/;"	f	signature:(void)
+main	rb_treecp.c	/^int main()$/;"	f
+main	stack.c	/^main(void)$/;"	f	signature:(void)
+main	tree2.c	/^main(void)$/;"	f	signature:(void)
+max_heap_insert	priority_queue.c	/^max_heap_insert(int *A, int key)$/;"	f	signature:(int *A, int key)
+max_heapify	heapsort.c	/^max_heapify(int *A, int i)$/;"	f	signature:(int *A, int i)
+max_left	find_maximum_subarray.c	/^    int max_left;$/;"	m	struct:maxsubarr	file:	access:public
+max_right	find_maximum_subarray.c	/^    int max_right;$/;"	m	struct:maxsubarr	file:	access:public
+max_sum	find_maximum_subarray.c	/^    int max_sum;$/;"	m	struct:maxsubarr	file:	access:public
+maxsubarr	find_maximum_subarray.c	/^struct maxsubarr {$/;"	s	file:
+maxsubarr::max_left	find_maximum_subarray.c	/^    int max_left;$/;"	m	struct:maxsubarr	file:	access:public
+maxsubarr::max_right	find_maximum_subarray.c	/^    int max_right;$/;"	m	struct:maxsubarr	file:	access:public
+maxsubarr::max_sum	find_maximum_subarray.c	/^    int max_sum;$/;"	m	struct:maxsubarr	file:	access:public
+merge	merge_sort.c	/^merge(int *A, int p, int q, int r)$/;"	f	signature:(int *A, int p, int q, int r)
+merge	merge_sort_max.c	/^merge(int *A, int p, int q, int r)$/;"	f	signature:(int *A, int p, int q, int r)
+merge_sort	main.c	/^extern void merge_sort(int *A, int p, int r);$/;"	p	file:	signature:(int *A, int p, int r)
+merge_sort	merge_sort.c	/^merge_sort(int *A, int p, int r)$/;"	f	signature:(int *A, int p, int r)
+merge_sort	merge_sort_max.c	/^merge_sort(int *A, int p, int r)$/;"	f	signature:(int *A, int p, int r)
+next	hash_chained.c	/^    struct elemt    *next;$/;"	m	struct:elemt	typeref:struct:elemt::elemt	file:	access:public
+next	hash_cp.c	/^	struct lnode *next;$/;"	m	struct:lnode	typeref:struct:lnode::lnode	file:	access:public
+next	linkedlist.c	/^    struct elemt    *next;$/;"	m	struct:elemt	typeref:struct:elemt::elemt	file:	access:public
+next	linkedlist_nil.c	/^    struct elemt    *next;$/;"	m	struct:elemt	typeref:struct:elemt::elemt	file:	access:public
+nextPrime	hash_cp.c	/^int nextPrime(int x)$/;"	f	signature:(int x)
+nil	linkedlist_nil.c	/^    ELEM    *nil;$/;"	m	struct:__anon3	file:	access:public
+nil	rb_tree.c	/^RB_TREE *nil = NULL;$/;"	v
+node	binary_search_tree.c	/^typedef struct node {$/;"	s	file:
+node	tree2.c	/^typedef struct node {$/;"	s	file:
+node::key	binary_search_tree.c	/^    int     key;$/;"	m	struct:node	file:	access:public
+node::key	tree2.c	/^    int     key;$/;"	m	struct:node	file:	access:public
+node::left	binary_search_tree.c	/^    struct node    *left;$/;"	m	struct:node	typeref:struct:node::node	file:	access:public
+node::left	tree2.c	/^    struct node    *left;$/;"	m	struct:node	typeref:struct:node::node	file:	access:public
+node::p	binary_search_tree.c	/^    struct node    *p;$/;"	m	struct:node	typeref:struct:node::node	file:	access:public
+node::p	tree2.c	/^    struct node    *p;$/;"	m	struct:node	typeref:struct:node::node	file:	access:public
+node::right	binary_search_tree.c	/^    struct node    *right;$/;"	m	struct:node	typeref:struct:node::node	file:	access:public
+node::right	tree2.c	/^    struct node    *right;$/;"	m	struct:node	typeref:struct:node::node	file:	access:public
+node_init	binary_search_tree.c	/^node_init(NODE *node)$/;"	f	signature:(NODE *node)
+node_init	rb_tree.c	/^node_init(void)$/;"	f	signature:(void)
+node_init	tree2.c	/^node_init(NODE **node)$/;"	f	signature:(NODE **node)
+p	binary_search_tree.c	/^    struct node    *p;$/;"	m	struct:node	typeref:struct:node::node	file:	access:public
+p	rb_tree.c	/^    struct rb_tree *p;$/;"	m	struct:rb_tree	typeref:struct:rb_tree::rb_tree	file:	access:public
+p	tree2.c	/^    struct node    *p;$/;"	m	struct:node	typeref:struct:node::node	file:	access:public
+parent	rb_treecp.c	/^    struct rb_node_t *left, *right, *parent;$/;"	m	struct:rb_node_t	typeref:struct:rb_node_t::	file:	access:public
+parent	rbtree_m.c	/^    struct rb_node *parent;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	file:	access:public
+parent	rbtree_m2.c	/^    struct rb_node *parent;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	file:	access:public
+partition	rand_quicksort.c	/^partition(int *A, int p, int r)$/;"	f	signature:(int *A, int p, int r)
+partition	select_wcliner.c	/^partition(int *A, int p, int r, int privot)$/;"	f	signature:(int *A, int p, int r, int privot)
+pop	stack.c	/^pop(struct stack *S)$/;"	f	signature:(struct stack *S)
+position	hash_cp.c	/^} *position;$/;"	t	typeref:struct:lnode	file:
+prev	hash_chained.c	/^    struct elemt    *prev;$/;"	m	struct:elemt	typeref:struct:elemt::elemt	file:	access:public
+prev	linkedlist.c	/^    struct elemt    *prev;$/;"	m	struct:elemt	typeref:struct:elemt::elemt	file:	access:public
+prev	linkedlist_nil.c	/^    struct elemt    *prev;$/;"	m	struct:elemt	typeref:struct:elemt::elemt	file:	access:public
+prime	hash_cp.c	/^int prime[MAXN];	\/\/ true : prime number$/;"	v
+print_hash	hash_chained.c	/^print_hash(LIST *table)$/;"	f	signature:(LIST *table)
+print_hash	hash_openaddr.c	/^print_hash(int *T)$/;"	f	signature:(int *T)
+printf_A	main.c	/^printf_A(int *A)$/;"	f	signature:(int *A)
+propagate	rbtree_augmented.h	/^	void (*propagate)(struct rb_node *node, struct rb_node *stop);$/;"	m	struct:rb_augment_callbacks	access:public
+push	stack.c	/^push(struct stack *S, int x)$/;"	f	signature:(struct stack *S, int x)
+queue	queue.c	/^    int     *queue;$/;"	m	struct:__anon2	file:	access:public
+queue_init	queue.c	/^queue_init(QUEUE *Q)$/;"	f	signature:(QUEUE *Q)
+queuesize	queue.c	21;"	d	file:
+quicksort	main.c	/^extern void quicksort(int *A, int p, int r);$/;"	p	file:	signature:(int *A, int p, int r)
+quicksort	rand_quicksort.c	/^quicksort(int *A, int p ,int r)$/;"	f	signature:(int *A, int p ,int r)
+radixSort	radixsort_CLRS.c	/^void radixSort(int a[], int n) {$/;"	f	signature:(int a[], int n)
+radix_sort	radixsort.c	/^void radix_sort(int array[], int len, int dec, int order)$/;"	f	signature:(int array[], int len, int dec, int order)
+rand_partition	rand_quicksort.c	/^rand_partition(int *A, int p, int r)$/;"	f	signature:(int *A, int p, int r)
+rand_quicksort	main.c	/^extern void rand_quicksort(int *A, int p, int r);$/;"	p	file:	signature:(int *A, int p, int r)
+rand_quicksort	rand_quicksort.c	/^rand_quicksort(int *A, int p, int r)$/;"	f	signature:(int *A, int p, int r)
+rand_select	main.c	/^extern int rand_select(int *A, int p, int r, int i);$/;"	p	file:	signature:(int *A, int p, int r, int i)
+rand_select	rand_quicksort.c	/^rand_select(int *A, int p, int r, int i)$/;"	f	signature:(int *A, int p, int r, int i)
+randomize_in_place	rand_in_place.c	/^randomize_in_place(int *A, int n)$/;"	f	signature:(int *A, int n)
+rb_augment_callbacks	rbtree_augmented.h	/^struct rb_augment_callbacks {$/;"	s
+rb_augment_callbacks::copy	rbtree_augmented.h	/^	void (*copy)(struct rb_node *old, struct rb_node *new);$/;"	m	struct:rb_augment_callbacks	access:public
+rb_augment_callbacks::propagate	rbtree_augmented.h	/^	void (*propagate)(struct rb_node *node, struct rb_node *stop);$/;"	m	struct:rb_augment_callbacks	access:public
+rb_augment_callbacks::rotate	rbtree_augmented.h	/^	void (*rotate)(struct rb_node *old, struct rb_node *new);$/;"	m	struct:rb_augment_callbacks	access:public
+rb_color	rbtree_augmented.h	95;"	d
+rb_entry	rbtree.h	50;"	d
+rb_erase	rb_treecp.c	/^rb_node_t* rb_erase(key_t key, rb_node_t *root)$/;"	f	signature:(key_t key, rb_node_t *root)
+rb_erase	rb_treecp.c	/^rb_node_t* rb_erase(key_t key, rb_node_t* root);$/;"	p	file:	signature:(key_t key, rb_node_t* root)
+rb_erase	rbtree.c	/^EXPORT_SYMBOL(rb_erase);$/;"	v
+rb_erase	rbtree.c	/^void rb_erase(struct rb_node *node, struct rb_root *root)$/;"	f	signature:(struct rb_node *node, struct rb_root *root)
+rb_erase	rbtree.h	/^extern void rb_erase(struct rb_node *, struct rb_root *);$/;"	p	signature:(struct rb_node *, struct rb_root *)
+rb_erase_augmented	rbtree_augmented.h	/^rb_erase_augmented(struct rb_node *node, struct rb_root *root,$/;"	f	signature:(struct rb_node *node, struct rb_root *root, const struct rb_augment_callbacks *augment)
+rb_erase_rebalance	rb_treecp.c	/^static rb_node_t* rb_erase_rebalance(rb_node_t *node, rb_node_t *parent, rb_node_t *root)$/;"	f	file:	signature:(rb_node_t *node, rb_node_t *parent, rb_node_t *root)
+rb_first	rbtree.c	/^EXPORT_SYMBOL(rb_first);$/;"	v
+rb_first	rbtree.c	/^struct rb_node *rb_first(const struct rb_root *root)$/;"	f	signature:(const struct rb_root *root)
+rb_first	rbtree.h	/^extern struct rb_node *rb_first(const struct rb_root *);$/;"	p	signature:(const struct rb_root *)
+rb_first_postorder	rbtree.c	/^EXPORT_SYMBOL(rb_first_postorder);$/;"	v
+rb_first_postorder	rbtree.c	/^struct rb_node *rb_first_postorder(const struct rb_root *root)$/;"	f	signature:(const struct rb_root *root)
+rb_first_postorder	rbtree.h	/^extern struct rb_node *rb_first_postorder(const struct rb_root *);$/;"	p	signature:(const struct rb_root *)
+rb_insert	rb_tree.c	/^rb_insert(RB_TREE **T, RB_TREE *z)$/;"	f	signature:(RB_TREE **T, RB_TREE *z)
+rb_insert	rb_treecp.c	/^rb_node_t* rb_insert(key_t key, data_t data, rb_node_t* root)$/;"	f	signature:(key_t key, data_t data, rb_node_t* root)
+rb_insert	rb_treecp.c	/^rb_node_t* rb_insert(key_t key, data_t data, rb_node_t* root);$/;"	p	file:	signature:(key_t key, data_t data, rb_node_t* root)
+rb_insert	rbtree_m2.c	/^rb_insert(RB_NODE *node, RB_ROOT *root)$/;"	f	signature:(RB_NODE *node, RB_ROOT *root)
+rb_insert_augmented	rbtree_augmented.h	/^rb_insert_augmented(struct rb_node *node, struct rb_root *root,$/;"	f	signature:(struct rb_node *node, struct rb_root *root, const struct rb_augment_callbacks *augment)
+rb_insert_color	rbtree.c	/^EXPORT_SYMBOL(rb_insert_color);$/;"	v
+rb_insert_color	rbtree.c	/^void rb_insert_color(struct rb_node *node, struct rb_root *root)$/;"	f	signature:(struct rb_node *node, struct rb_root *root)
+rb_insert_color	rbtree.h	/^extern void rb_insert_color(struct rb_node *, struct rb_root *);$/;"	p	signature:(struct rb_node *, struct rb_root *)
+rb_insert_fixup	rb_tree.c	/^rb_insert_fixup(RB_TREE **T, RB_TREE *z)$/;"	f	signature:(RB_TREE **T, RB_TREE *z)
+rb_insert_fixup	rbtree_m.c	/^rb_insert_fixup(RB_NODE *node, RB_TREE *root)$/;"	f	signature:(RB_NODE *node, RB_TREE *root)
+rb_insert_rebalance	rb_treecp.c	/^static rb_node_t* rb_insert_rebalance(rb_node_t *node, rb_node_t *root)$/;"	f	file:	signature:(rb_node_t *node, rb_node_t *root)
+rb_is_black	rbtree_augmented.h	97;"	d
+rb_is_red	rbtree_augmented.h	96;"	d
+rb_last	rbtree.c	/^EXPORT_SYMBOL(rb_last);$/;"	v
+rb_last	rbtree.c	/^struct rb_node *rb_last(const struct rb_root *root)$/;"	f	signature:(const struct rb_root *root)
+rb_last	rbtree.h	/^extern struct rb_node *rb_last(const struct rb_root *);$/;"	p	signature:(const struct rb_root *)
+rb_left	rbtree.h	/^	struct rb_node *rb_left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	access:public
+rb_left_deepest_node	rbtree.c	/^static struct rb_node *rb_left_deepest_node(const struct rb_node *node)$/;"	f	file:	signature:(const struct rb_node *node)
+rb_link_node	rbtree.h	/^static inline void rb_link_node(struct rb_node * node, struct rb_node * parent,$/;"	f	signature:(struct rb_node * node, struct rb_node * parent, struct rb_node ** rb_link)
+rb_new_node	rb_treecp.c	/^static rb_node_t* rb_new_node(key_t key, data_t data)$/;"	f	file:	signature:(key_t key, data_t data)
+rb_next	rbtree.c	/^EXPORT_SYMBOL(rb_next);$/;"	v
+rb_next	rbtree.c	/^struct rb_node *rb_next(const struct rb_node *node)$/;"	f	signature:(const struct rb_node *node)
+rb_next	rbtree.h	/^extern struct rb_node *rb_next(const struct rb_node *);$/;"	p	signature:(const struct rb_node *)
+rb_next_postorder	rbtree.c	/^EXPORT_SYMBOL(rb_next_postorder);$/;"	v
+rb_next_postorder	rbtree.c	/^struct rb_node *rb_next_postorder(const struct rb_node *node)$/;"	f	signature:(const struct rb_node *node)
+rb_next_postorder	rbtree.h	/^extern struct rb_node *rb_next_postorder(const struct rb_node *);$/;"	p	signature:(const struct rb_node *)
+rb_node	rbtree.h	/^	struct rb_node *rb_node;$/;"	m	struct:rb_root	typeref:struct:rb_root::rb_node	access:public
+rb_node	rbtree.h	/^struct rb_node {$/;"	s
+rb_node	rbtree_m.c	/^typedef struct rb_node {$/;"	s	file:
+rb_node	rbtree_m2.c	/^typedef struct rb_node {$/;"	s	file:
+rb_node::__rb_parent_color	rbtree.h	/^	unsigned long  __rb_parent_color;$/;"	m	struct:rb_node	access:public
+rb_node::color	rbtree_m.c	/^    int     color;$/;"	m	struct:rb_node	file:	access:public
+rb_node::color	rbtree_m2.c	/^    int     color;$/;"	m	struct:rb_node	file:	access:public
+rb_node::key	rbtree_m.c	/^    int     key;$/;"	m	struct:rb_node	file:	access:public
+rb_node::key	rbtree_m2.c	/^    int     key;$/;"	m	struct:rb_node	file:	access:public
+rb_node::left	rbtree_m.c	/^    struct rb_node *left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	file:	access:public
+rb_node::left	rbtree_m2.c	/^    struct rb_node *left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	file:	access:public
+rb_node::parent	rbtree_m.c	/^    struct rb_node *parent;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	file:	access:public
+rb_node::parent	rbtree_m2.c	/^    struct rb_node *parent;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	file:	access:public
+rb_node::rb_left	rbtree.h	/^	struct rb_node *rb_left;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	access:public
+rb_node::rb_right	rbtree.h	/^	struct rb_node *rb_right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	access:public
+rb_node::right	rbtree_m.c	/^    struct rb_node *right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	file:	access:public
+rb_node::right	rbtree_m2.c	/^    struct rb_node *right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	file:	access:public
+rb_node_t	rb_treecp.c	/^typedef struct rb_node_t$/;"	s	file:
+rb_node_t	rb_treecp.c	/^}rb_node_t;$/;"	t	typeref:struct:rb_node_t	file:
+rb_node_t::color	rb_treecp.c	/^    color_t color;$/;"	m	struct:rb_node_t	file:	access:public
+rb_node_t::data	rb_treecp.c	/^    data_t data;$/;"	m	struct:rb_node_t	file:	access:public
+rb_node_t::key	rb_treecp.c	/^    key_t key;$/;"	m	struct:rb_node_t	file:	access:public
+rb_node_t::left	rb_treecp.c	/^    struct rb_node_t *left, *right, *parent;$/;"	m	struct:rb_node_t	typeref:struct:rb_node_t::rb_node_t	file:	access:public
+rb_node_t::parent	rb_treecp.c	/^    struct rb_node_t *left, *right, *parent;$/;"	m	struct:rb_node_t	typeref:struct:rb_node_t::	file:	access:public
+rb_node_t::right	rb_treecp.c	/^    struct rb_node_t *left, *right, *parent;$/;"	m	struct:rb_node_t	typeref:struct:rb_node_t::	file:	access:public
+rb_parent	rbtree.h	47;"	d
+rb_prev	rbtree.c	/^EXPORT_SYMBOL(rb_prev);$/;"	v
+rb_prev	rbtree.c	/^struct rb_node *rb_prev(const struct rb_node *node)$/;"	f	signature:(const struct rb_node *node)
+rb_prev	rbtree.h	/^extern struct rb_node *rb_prev(const struct rb_node *);$/;"	p	signature:(const struct rb_node *)
+rb_red_parent	rbtree.c	/^static inline struct rb_node *rb_red_parent(struct rb_node *red)$/;"	f	file:	signature:(struct rb_node *red)
+rb_replace_node	rbtree.c	/^EXPORT_SYMBOL(rb_replace_node);$/;"	v
+rb_replace_node	rbtree.c	/^void rb_replace_node(struct rb_node *victim, struct rb_node *new,$/;"	f	signature:(struct rb_node *victim, struct rb_node *new, struct rb_root *root)
+rb_replace_node	rbtree.h	/^extern void rb_replace_node(struct rb_node *victim, struct rb_node *new, $/;"	p	signature:(struct rb_node *victim, struct rb_node *new, struct rb_root *root)
+rb_right	rbtree.h	/^	struct rb_node *rb_right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	access:public
+rb_root	rbtree.h	/^struct rb_root {$/;"	s
+rb_root	rbtree_m2.c	/^typedef struct rb_root {$/;"	s	file:
+rb_root::rb_node	rbtree.h	/^	struct rb_node *rb_node;$/;"	m	struct:rb_root	typeref:struct:rb_root::rb_node	access:public
+rb_root::root	rbtree_m2.c	/^    struct rb_node *root;$/;"	m	struct:rb_root	typeref:struct:rb_root::rb_node	file:	access:public
+rb_rotate_left	rb_treecp.c	/^static rb_node_t* rb_rotate_left(rb_node_t* node, rb_node_t* root)$/;"	f	file:	signature:(rb_node_t* node, rb_node_t* root)
+rb_rotate_right	rb_treecp.c	/^static rb_node_t* rb_rotate_right(rb_node_t* node, rb_node_t* root)$/;"	f	file:	signature:(rb_node_t* node, rb_node_t* root)
+rb_search	rb_treecp.c	/^rb_node_t* rb_search(key_t key, rb_node_t* root)$/;"	f	signature:(key_t key, rb_node_t* root)
+rb_search	rb_treecp.c	/^rb_node_t* rb_search(key_t key, rb_node_t* root);$/;"	p	file:	signature:(key_t key, rb_node_t* root)
+rb_search_auxiliary	rb_treecp.c	/^static rb_node_t* rb_search_auxiliary(key_t key, rb_node_t* root, rb_node_t** save)$/;"	f	file:	signature:(key_t key, rb_node_t* root, rb_node_t** save)
+rb_set_black	rbtree.c	/^static inline void rb_set_black(struct rb_node *rb)$/;"	f	file:	signature:(struct rb_node *rb)
+rb_set_parent	rbtree_augmented.h	/^static inline void rb_set_parent(struct rb_node *rb, struct rb_node *p)$/;"	f	signature:(struct rb_node *rb, struct rb_node *p)
+rb_set_parent_color	rbtree_augmented.h	/^static inline void rb_set_parent_color(struct rb_node *rb,$/;"	f	signature:(struct rb_node *rb, struct rb_node *p, int color)
+rb_tree	rb_tree.c	/^typedef struct rb_tree {$/;"	s	file:
+rb_tree	rbtree_m.c	/^typedef struct rb_tree {$/;"	s	file:
+rb_tree::color	rb_tree.c	/^    int     color;$/;"	m	struct:rb_tree	file:	access:public
+rb_tree::key	rb_tree.c	/^    int     key;$/;"	m	struct:rb_tree	file:	access:public
+rb_tree::left	rb_tree.c	/^    struct rb_tree *left;$/;"	m	struct:rb_tree	typeref:struct:rb_tree::rb_tree	file:	access:public
+rb_tree::p	rb_tree.c	/^    struct rb_tree *p;$/;"	m	struct:rb_tree	typeref:struct:rb_tree::rb_tree	file:	access:public
+rb_tree::right	rb_tree.c	/^    struct rb_tree *right;$/;"	m	struct:rb_tree	typeref:struct:rb_tree::rb_tree	file:	access:public
+rb_tree::root	rbtree_m.c	/^    struct rb_node *root;$/;"	m	struct:rb_tree	typeref:struct:rb_tree::rb_node	file:	access:public
+rb_tree_destory	rb_tree.c	/^rb_tree_destory(RB_TREE *x)$/;"	f	signature:(RB_TREE *x)
+rbtree_postorder_for_each_entry_safe	rbtree.h	97;"	d
+right	binary_search_tree.c	/^    struct node    *right;$/;"	m	struct:node	typeref:struct:node::node	file:	access:public
+right	rb_tree.c	/^    struct rb_tree *right;$/;"	m	struct:rb_tree	typeref:struct:rb_tree::rb_tree	file:	access:public
+right	rb_treecp.c	/^    struct rb_node_t *left, *right, *parent;$/;"	m	struct:rb_node_t	typeref:struct:rb_node_t::	file:	access:public
+right	rbtree_m.c	/^    struct rb_node *right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	file:	access:public
+right	rbtree_m2.c	/^    struct rb_node *right;$/;"	m	struct:rb_node	typeref:struct:rb_node::rb_node	file:	access:public
+right	tree2.c	/^    struct node    *right;$/;"	m	struct:node	typeref:struct:node::node	file:	access:public
+right_rotate	rb_tree.c	/^right_rotate(RB_TREE **T, RB_TREE *y)$/;"	f	signature:(RB_TREE **T, RB_TREE *y)
+right_rotate	rbtree_m.c	/^right_rotate(RB_TREE *T, RB_NODE *y)$/;"	f	signature:(RB_TREE *T, RB_NODE *y)
+right_rotate	rbtree_m2.c	/^right_rotate(RB_TREE *T, RB_NODE *y)$/;"	f	signature:(RB_TREE *T, RB_NODE *y)
+root	rbtree_m.c	/^    struct rb_node *root;$/;"	m	struct:rb_tree	typeref:struct:rb_tree::rb_node	file:	access:public
+root	rbtree_m2.c	/^    struct rb_node *root;$/;"	m	struct:rb_root	typeref:struct:rb_root::rb_node	file:	access:public
+rotate	rbtree_augmented.h	/^	void (*rotate)(struct rb_node *old, struct rb_node *new);$/;"	m	struct:rb_augment_callbacks	access:public
+select	select_wcliner.c	/^select(int *A, int p, int r, int i)$/;"	f	signature:(int *A, int p, int r, int i)
+sievePrime	hash_cp.c	/^void sievePrime()$/;"	f
+size	stack.c	/^    int     size;$/;"	m	struct:stack	file:	access:public
+stack	stack.c	/^    int     *stack;$/;"	m	struct:stack	file:	access:public
+stack	stack.c	/^struct stack {$/;"	s	file:
+stack::size	stack.c	/^    int     size;$/;"	m	struct:stack	file:	access:public
+stack::stack	stack.c	/^    int     *stack;$/;"	m	struct:stack	file:	access:public
+stack::top	stack.c	/^    int     top;$/;"	m	struct:stack	file:	access:public
+stack_empty	stack.c	/^stack_empty(struct stack *S)$/;"	f	signature:(struct stack *S)
+stack_init	stack.c	/^stack_init(struct stack *S)$/;"	f	signature:(struct stack *S)
+tablesize	hash_cp.c	/^	int tablesize;$/;"	m	struct:hashtb	file:	access:public
+tail	queue.c	/^    int     tail;$/;"	m	struct:__anon2	file:	access:public
+top	stack.c	/^    int     top;$/;"	m	struct:stack	file:	access:public
+transplant	binary_search_tree.c	/^transplant(NODE **root, NODE *u, NODE *v)$/;"	f	signature:(NODE **root, NODE *u, NODE *v)
+tree_delete	binary_search_tree.c	/^tree_delete(NODE **root, NODE *z)$/;"	f	signature:(NODE **root, NODE *z)
+tree_insert	binary_search_tree.c	/^tree_insert(NODE **root, int key)$/;"	f	signature:(NODE **root, int key)
+tree_insert	tree2.c	/^tree_insert(NODE **root, int key)$/;"	f	signature:(NODE **root, int key)
+tree_maximum	binary_search_tree.c	/^tree_maximum(NODE *x)$/;"	f	signature:(NODE *x)
+tree_maximum	tree2.c	/^tree_maximum(NODE *x)$/;"	f	signature:(NODE *x)
+tree_minimum	binary_search_tree.c	/^tree_minimum(NODE *x)$/;"	f	signature:(NODE *x)
+tree_minimum	tree2.c	/^tree_minimum(NODE *x)$/;"	f	signature:(NODE *x)
+tree_predecessor	binary_search_tree.c	/^tree_predecessor(NODE *x)$/;"	f	signature:(NODE *x)
+tree_search	binary_search_tree.c	/^tree_search(NODE *x, int k)$/;"	f	signature:(NODE *x, int k)
+tree_search	tree2.c	/^tree_search(NODE *x, int k)$/;"	f	signature:(NODE *x, int k)
+tree_successor	binary_search_tree.c	/^tree_successor(NODE *x)$/;"	f	signature:(NODE *x)
+void_insert	rbtree_m.c	/^void_insert(RB_TREE *T, RB_NODE *z)$/;"	f	signature:(RB_TREE *T, RB_NODE *z)
