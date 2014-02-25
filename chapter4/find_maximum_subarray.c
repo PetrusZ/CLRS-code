@@ -10,12 +10,13 @@
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  YOUR NAME (), 
- *   Organization:  
+ *         Author:  YOUR NAME (),
+ *   Organization:
  *
  * =====================================================================================
  */
 #include <stdlib.h>
+#include <stdio.h>
 #include <math.h>
 
 #define MIN     -65535
@@ -37,7 +38,6 @@ find_max_crossing_subarray(int *A, int low, int mid, int high)
     int             max_left, max_right;
     struct maxsubarr   max;
 
-    //left_sum = -(pow(2, sizeof(int) * 8));
     left_sum = MIN;
     sum = 0;
     for (i = mid; i>= low; i--) {
@@ -48,7 +48,6 @@ find_max_crossing_subarray(int *A, int low, int mid, int high)
         }
     }
 
-    //right_sum = -(pow(2, sizeof(int) * 8));
     right_sum = MIN;
     sum = 0;
     for (j = mid + 1; j <= high; j++) {

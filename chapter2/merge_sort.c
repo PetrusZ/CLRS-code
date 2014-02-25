@@ -27,13 +27,9 @@ merge(int *A, int p, int q, int r)
      */
 
     int     n1, n2, i, j, k;
-    //int     *L = NULL, *R = NULL;
 
     n1 = q - p + 1;
     n2 = r - q;
-
-    //L = (int *)malloc(sizeof(int) * n1);
-    //R = (int *)malloc(sizeof(int) * n2);
 
     int     L[n1], R[n2];
 
@@ -57,8 +53,6 @@ merge(int *A, int p, int q, int r)
     for ( ; j < n2; j++)
         A[k++] = R[j];
 
-    //free(L);
-    //free(R);
 }
 
 void

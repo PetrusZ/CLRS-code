@@ -3,23 +3,25 @@
  *
  *       Filename:  quicksort.c
  *
- *    Description:  
+ *    Description:
  *
  *        Version:  1.0
  *        Created:  2013年11月03日 16时51分02秒
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  YOUR NAME (), 
- *   Organization:  
+ *         Author:  YOUR NAME (),
+ *   Organization:
  *
  * =====================================================================================
  */
 #include <stdlib.h>
- 
+#include <stdio.h>
+#include <string.h>
+
 #define exchange(a, b)  {(a) = (a) + (b); (b) = (a) - (b); (a) = (a) - (b);}
 //exchange(a, b)不适用于同一个变量交换自己，交换结果会发生错误，值变为0。所以这回不使用这个宏。
- 
+
 int
 partition(int *A, int p, int r)
 {
@@ -29,10 +31,10 @@ partition(int *A, int p, int r)
      */
     int x, i, j;
     int temp;
- 
+
     x = A[r];
     i = p - 1;
- 
+
     for (j = p; j < r; j++) {
         if (A[j] <= x) {
             i = i + 1;
@@ -67,7 +69,7 @@ quicksort(int *A, int p ,int r)
      * 递归调用快速排序，对以数组进行排序。
      */
     int     q;
- 
+
     if (p < r) {
         q = partition(A, p, r);
         quicksort(A, p, q-1);
@@ -79,13 +81,13 @@ void
 rand_quicksort(int *A, int p, int r)
 {
     int     q;
- 
+
     if (p < r) {
         q = rand_partition(A, p, r);
         rand_quicksort(A, p, q - 1);
         rand_quicksort(A, q + 1, r);
     }
- 
+
 }
 
 int
@@ -107,5 +109,21 @@ rand_select(int *A, int p, int r, int i)
         return rand_select(A, p, q - 1, i);
     else
         return rand_select(A, q + 1, r, i - k);
+}
+
+int
+main(int argc, char *argv[])
+{
+    int i;
+    int A[10] = {6, 2, 9, 0, 3, 5, 1, 4, 8, 7};
+
+    rand_quicksort(A, 0, 9);
+
+    for (i = 0; i < 10; i++) {
+        printf("%d ", A[i]);
+    }
+    printf("\n");
+
+    return 0;
 }
 

@@ -10,28 +10,29 @@
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  YOUR NAME (), 
- *   Organization:  
+ *         Author:  YOUR NAME (),
+ *   Organization:
  *
  * =====================================================================================
  */
 #include <stdlib.h>
+#include <stdio.h>
 
-int find_maximum_subarray_liner(const int A[],int n)  
-{  
-    int thisum, maxsum, i;  
+int find_maximum_subarray_liner(const int A[],int n)
+{
+    int thisum, maxsum, i;
 
-    thisum = maxsum = 0;  
+    thisum = maxsum = 0;
 
     for(i = 0; i < n; i++) {
-        thisum += A[i];  
-        if(thisum > maxsum)  
-            maxsum = thisum;  
-        else if(thisum < 0)  
-            thisum = 0;  
-    }  
-    return maxsum;  
-}   
+        thisum += A[i];
+        if(thisum > maxsum)
+            maxsum = thisum;
+        else if(thisum < 0)
+            thisum = 0;
+    }
+    return maxsum;
+}
 
 int
 main(void)
@@ -40,7 +41,7 @@ main(void)
     int maxsubarr;
 
     maxsubarr = find_maximum_subarray_liner(A, 16);
-    
+
     printf("maxsubarray: %d\n", maxsubarr);
 }
 

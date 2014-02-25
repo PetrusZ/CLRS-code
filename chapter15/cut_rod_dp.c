@@ -1,28 +1,28 @@
 /*
- * =====================================================================================
- *
- *       Filename:  cut_rod_dp.c
- *
- *    Description:  钢条切割问题的动态规划算法
- *
- *        Version:  1.0
- *        Created:  2013年11月26日 17时08分15秒
- *       Compiler:  gcc
- *
- *         Author:  codeplayer, silencly07@gmail.com
- *      Copyright:  Copyright (c) 2013, codeplayer
- *
- * =====================================================================================
- */
+* =====================================================================================
+*
+* Filename: cut_rod_dp.c
+*
+* Description: 钢条切割问题的动态规划算法
+*
+* Version: 1.0
+* Created: 2013年11月26日 17时08分15秒
+* Compiler: gcc
+*
+* Author: codeplayer, silencly07@gmail.com
+* Copyright: Copyright (c) 2013, codeplayer
+*
+* =====================================================================================
+*/
 #include <stdlib.h>
 #include <stdio.h>
 
-#define MAX(a, b)   ((a) > (b) ? (a) : (b))
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
 
 int
 memized_cut_rod_aux(int *p, int n, int *r)
 {
-    int     i, q;
+    int i, q;
 
     if (r[n - 1] >= 0)
         return(r[n - 1]);
@@ -43,7 +43,7 @@ memized_cut_rod_aux(int *p, int n, int *r)
 int
 memized_cut_rod(int *p, int n)
 {
-    int     i, *r, max;
+    int i, *r, max;
 
     r = (int *)malloc(n * sizeof(int));
 
@@ -61,8 +61,8 @@ memized_cut_rod(int *p, int n)
 int
 bottom_up_cut_rod(int *p, int n)
 {
-    int     i, j, q;
-    int     r[n];
+    int i, j, q;
+    int r[n];
     r[0] = 0;
 
     for (j = 1; j < n; j++) {
@@ -80,7 +80,7 @@ bottom_up_cut_rod(int *p, int n)
 int
 extended_bottom_up_cut_rod(int *p, int n, int *r, int *s)
 {
-    int     i, j ,q;
+    int i, j ,q;
 
     r[0] = 0;
     for (j = 1; j < n; j++) {
@@ -100,7 +100,7 @@ extended_bottom_up_cut_rod(int *p, int n, int *r, int *s)
 void
 print_cut_rod_solution(int *p, int n)
 {
-    int     r[n], s[n];
+    int r[n], s[n];
 
     extended_bottom_up_cut_rod(p, n, r, s);
 
@@ -114,8 +114,8 @@ print_cut_rod_solution(int *p, int n)
 int
 main(int argc, const char *argv[])
 {
-    int     p[11] = {0, 1, 5, 8, 9, 10, 17, 17, 20, 24, 30};
-    /* int     max; */
+    int p[11] = {0, 1, 5, 8, 9, 10, 17, 17, 20, 24, 30};
+    /* int max; */
 
     /* max = memized_cut_rod(p, 11); */
     /* max = bottom_up_cut_rod(p, 11); */
