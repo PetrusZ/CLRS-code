@@ -21,3 +21,5 @@ tags
 core
 Makefile
 a.out
+
+.ccls-cache
